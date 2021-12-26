@@ -141,7 +141,7 @@ function Input() {
                         />
                         }
                         <div>
-                            <button className='bg-[#1d9bf0] w-[60px] h-[30px] rounded-full cursor-pointer hover:bg-opacity-80'>Tweet</button>
+                            <button className="bg-[#1d9bf0] w-[60px] h-[30px] rounded-full cursor-pointer hover:bg-opacity-80" disabled={!input.trim()} >Tweet</button>
                         </div>
                     </div>}
                 </form>

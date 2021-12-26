@@ -117,7 +117,7 @@ function Post({ id, post }) {
             <div>
                 <Avatar src={post?.userImg} alt='' />
             </div>
-            <div className=''>
+            <div className='w-full'>
                 <Link href={`/${id}`}>
                     <a >
                         <div className='text-white flex-1 px-4 mb-2 '>
